@@ -11,10 +11,27 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+  }
+
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans 3", cursive;
+  background-color: rgba(0, 170, 175, 0.01);
+  min-height: 100%;
 }
 
 /*
